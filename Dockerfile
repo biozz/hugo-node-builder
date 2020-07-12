@@ -1,6 +1,6 @@
 FROM alpine:latest
 LABEL maintainer="Ivan Elfimov <ielfimov@gmail.com>"
-ENV HUGO_VERSION 0.73.4
+ENV HUGO_VERSION 0.73.0
 
 RUN apk add --no-cache \
     curl \
